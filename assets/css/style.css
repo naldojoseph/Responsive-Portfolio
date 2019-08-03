@@ -200,11 +200,72 @@ input[type=submit] {
 
     
 }
+
+@media screen and (max-width: 980px) {
+    body {
+      background-color: rgba(226, 196, 130, 0.87);
+    }
    
-   
+    .wrapper {
+       
+        width: 100%;
+        padding: 25px;
+      }
+    
+      .main-section,
+      .sidebar {
+        width: 100%;
+      }
+    
+      .sidebar {
+        margin: 40px;
+      }
+    }
 
-
-
+    @media screen and (max-width: 768px) {
+        body {
+          background-color: rgb(221, 163, 213);
+        }
+       
+        .wrapper {
+           
+            width: 100%;
+            padding: 25px;
+          }
+        
+          .main-section,
+          .sidebar {
+            width: 100%;
+          }
+        
+          .sidebar {
+            margin: 40px;
+          }
+        }
+    
+        @media screen and (max-width: 640px) {
+            body {
+              background-color: rgb(218, 185, 136) ;
+            }
+           
+            .wrapper {
+               
+                width: 100%;
+                padding: 25px;
+              }
+            
+              .main-section,
+              .sidebar {
+                width: 100%;
+              }
+            
+              .sidebar {
+                margin: 40px;
+              }
+            }
+          
+            }
+        
 
 
 
