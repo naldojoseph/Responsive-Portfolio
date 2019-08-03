@@ -212,14 +212,11 @@ input[type=submit] {
         padding: 25px;
       }
     
-      .main-section,
-      .sidebar {
+      .main-section {
         width: 100%;
       }
     
-      .sidebar {
-        margin: 40px;
-      }
+      
     }
 
     @media screen and (max-width: 768px) {
@@ -233,14 +230,12 @@ input[type=submit] {
             padding: 25px;
           }
         
-          .main-section,
-          .sidebar {
+          .main-section
+           {
             width: 100%;
           }
         
-          .sidebar {
-            margin: 40px;
-          }
+          
         }
     
         @media screen and (max-width: 640px) {
@@ -252,17 +247,36 @@ input[type=submit] {
                
                 width: 100%;
                 padding: 25px;
+                
+
               }
             
               .main-section,
-              .sidebar {
+               {
                 width: 100%;
-              }
-            
-              .sidebar {
-                margin: 40px;
-              }
+                position: static;
+                text-align: center;
+              
+          
+              
             }
+            #masterhead #logo{
+                width: 100%;
+                position: static;
+                text-align: center;
+            }
+            nav a {
+                align-content: center;
+                position: static;
+                margin: 17px;
+                float: left;
+               
+                
+               
+                
+            }
+            
+
           
             }
         
